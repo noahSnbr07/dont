@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./icon.svg" />
+    <title>don't</title>
+    <style>
+        body,
+        html {
+            height: 100dvh;
+            width: 100dvw;
+            margin: 0;
+            padding: 0;
+            background-color: #0b1215;
+            color: #a7aac9;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial;
+            position: relative;
+        }
+
+        span {
+            font-size: 2em;
+        }
+
+        a {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            margin: 0;
+            font-size: 2em;
+            color: #a7aac9;
+            text-decoration: none;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #mainScore {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 10em;
+            opacity: 0.05;
+            text-shadow: 0px 0px 12px #a7aac9;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://www.github.com/noahSnbr07/dont"> @don't </a>
+    <span id="mainScore"></span>
+    <span id="start-hint"> Click anywhere to start doing nothing </span>
+    <script src="app.js"></script>
+</body>
+
+</html>
